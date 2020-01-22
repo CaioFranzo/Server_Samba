@@ -1,4 +1,4 @@
-# Criando Servidor Samba
+# :file_folder: Criando Servidor Samba :file_folder:
 
 Instale o Ubunto Server 18.04  
 Sempre instale a versão mais recente e estável, no site do Ubuntu ubuntu.com/download , durante a instalação do sistema autorize a intalação do ssh.
