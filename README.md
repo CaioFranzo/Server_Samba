@@ -5,7 +5,6 @@ Sempre instale a versão mais recente e com suporte (LTS), pode ser baixado a IS
 
 ![SSH_install.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/SSH_install.PNG?raw=true)  
 
-# Preparando Samba :computer:
 
 ### ~$ ifconfig  
 Para verificar qual seu IP.
@@ -16,6 +15,8 @@ Caso quira fazer acesso remoto local a seu servidor pelo Windows10 basta abrir s
 Ou instale o Putty [Download aqui](https://www.ssh.com/ssh/putty/download).  
   
 ![Putty.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/Putty.PNG?raw=true)  
+
+# Preparando Samba :computer:
 
 ### ~$ sudo apt-get install samba  
 Instalando sistema samba.
