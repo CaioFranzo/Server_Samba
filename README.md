@@ -5,6 +5,8 @@ Sempre instale a versão mais recente e com suporte (LTS), pode ser baixado a IS
 
 ![SSH_install.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/SSH_install.PNG?raw=true)  
 
+# Preparando Samba :computer:
+
 ### ~$ ifconfig  
 Para verificar qual seu IP.
 
