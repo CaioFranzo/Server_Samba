@@ -13,4 +13,14 @@ Caso quira fazer acesso remoto local a seu servidor pelo Windows10 basta abrir s
 
 Ou instale o Putty [Download aqui](https://www.ssh.com/ssh/putty/download).  
   
-![Putty.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/Putty.PNG?raw=true)
+![Putty.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/Putty.PNG?raw=true)  
+
+### ~$ sudo apt-get install samba  
+Instalando sistema samba.
+
+### ~$ sudo mkdir -p /home/arquivos  
+Criando pasta pai, onde tera as pastas de arquivos.  
+
+### ~$ sudo mkdir -p /home/arquivos/publico  
+Criando pasta de arquivos publicos (todos teram acesso)  
+
