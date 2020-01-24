@@ -42,5 +42,24 @@ Restringir permição.
 ### ~$ sudo addgroup Nome_Grupo
 Criando grupo que recebera usuarios que terão acesso a pasta privada.
 
+### ~$ sudo adduser nome_user  
+Criando usuario.
 
+### ~$ sudo adduser nome_user nome_grupo
+adicionando usuario ao grupo
 
+### ~$  less /etc/group
+Vá para o fim e veja se o seu grupo e usuarios foram criados.  
+
+### ~$ sudo chown root.nome_grupo privado/
+Adicionando o grupo como proprietario da pasta.
+
+### ~$ chmod g+s privado/
+Herdar grupo como permição. farzer para cada pasta restrita do servidor.
+
+### ~$ ll
+As pastas devem estar dessa forma.
+
+![Folders.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/Folders.PNG?raw=true)  
+
+# Configurando arquivos :bookmark_tabs:
