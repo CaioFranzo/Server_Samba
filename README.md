@@ -22,5 +22,22 @@ Instalando sistema samba.
 Criando pasta pai, onde tera as pastas de arquivos.  
 
 ### ~$ sudo mkdir -p /home/arquivos/publico  
-Criando pasta de arquivos publicos (todos teram acesso)  
+Criando pasta de arquivos publicos (todos teram acesso).  
+
+### ~$ cd /home/arquivos  
+Entrando na pastas pai.
+
+### ~$ ls
+Ver se as pastas de arquivos foram criadas.
+
+### ~$ chmod -R 777 publico  
+Dar pemição a todos, provavel que o nome da pasta ficara grifado, ~$ ls para verficar.
+
+### ~$ chmod -R 770 privado
+Restringir permição.  
+
+### ~$ sudo addgroup Nome_Grupo
+Criando grupo que recebera usuarios que terão acesso a pasta privada.
+
+
 
