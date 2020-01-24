@@ -5,7 +5,7 @@ Sempre instale a versão mais recente e com suporte (LTS), pode ser baixado a IS
 
 ![SSH_install.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/SSH_install.PNG?raw=true)  
 
-####~$ ifconfig 
+####(~$ ifconfig) 
 Para verificar qual seu IP.
 
 Caso quira fazer acesso remoto local a seu servidor pelo Windows10 basta abrir seu CMD e digitar:  
