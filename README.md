@@ -3,7 +3,7 @@
 ```Instale o Ubunto Server 18.04.3 LTS```  
 Sempre instale a versão mais recente e com suporte (LTS), pode ser baixado a ISO no site do Ubuntu [www.ubuntu.com/download](https://ubuntu.com/download/server) , durante a instalação do sistema autorize a intalação do ssh.
 
-![SSH_install.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/SSH_instll.PNG?raw=true)  
+![SSH_install.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/SSH_install.PNG?raw=true)  
 
 ```~$ ifconfig```  
 Para verificar qual seu IP.
