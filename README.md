@@ -33,10 +33,10 @@ Entrando na pastas pai.
 ### ~$ ls
 Ver se as pastas de arquivos foram criadas.
 
-### ~$ chmod -R 777 publico  
+### ~$ sudo chmod -R 777 publico  
 Dar pemição a todos, provavel que o nome da pasta ficara grifado, ~$ ls para verficar.
 
-### ~$ chmod -R 770 privado
+### ~$ sudo chmod -R 770 privado
 Restringir permição.  
 
 ### ~$ sudo addgroup Nome_Grupo
@@ -54,7 +54,7 @@ Vá para o fim e veja se o seu grupo e usuarios foram criados.
 ### ~$ sudo chown root.nome_grupo privado/
 Adicionando o grupo como proprietario da pasta.
 
-### ~$ chmod g+s privado/
+### ~$ sudo chmod g+s privado/
 Herdar grupo como permição. farzer para cada pasta restrita do servidor.
 
 ### ~$ ll
