@@ -63,3 +63,29 @@ As pastas devem estar dessa forma.
 ![Folders.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/Folders.PNG?raw=true)  
 
 # Configurando arquivos :bookmark_tabs:
+
+### ~$ sudo nano /etc/samba/smb.conf
+Arquivo de configuração de pastas do samba.  
+
+### Insira oseguinte codigo ao fim do arquivo:  
+
+[privado]
+comment = Pasta de arquivos com autenticacao
+path = /home/arquivos/privado
+writable = yes
+browseable = yes
+create mode = 0770
+directory mode = 0770
+guest ok = no
+read only = no
+valid users = @merenda *Usar @ para grupos
+
+[publico]
+comment = Pasta de arquivos com autenticacao
+path = /home/arquivos/publico
+writable = yes
+browseable = yes
+create mode = 0777
+directory mode = 0777
+guest ok = no
+read only = no
