@@ -89,3 +89,9 @@ create mode = 0777
 directory mode = 0777  
 guest ok = no  
 read only = no  
+
+# Configurando ip fixo
+
+## A nova versão do Ubuntu 18.04 mudou sua forma de IP estático. Para fazer essa habilitação siga os paços:  
+   
+### ~$ cd /etc/netplan/
