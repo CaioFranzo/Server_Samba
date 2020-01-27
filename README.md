@@ -90,8 +90,26 @@ directory mode = 0777
 guest ok = no  
 read only = no  
 
-# Configurando ip fixo
+# Configurando ip fixo :space_invader:
 
-## A nova versão do Ubuntu 18.04 mudou sua forma de IP estático. Para fazer essa habilitação siga os paços:  
+A nova versão do Ubuntu 18.04 mudou sua forma de IP estático. Para fazer essa habilitação siga os paços:  
    
 ### ~$ cd /etc/netplan/
+pasta do arquivo que comanda a placa de rede.
+
+### ~$ sudo nano 50-cloud-init.yaml
+Abrir o arquivo com o editor NANO ou outro de sua preferencia.  
+
+### O arquivo deve ter as seguintes configurações:  
+
+network:
+   version: 2  
+   renderer: networkd  
+   ethernets:  
+      enp0s3:  
+         dhcp4: no  
+         dhcp6: no  
+         addresses: [192.168.100.2/24]  
+         gateway4: 192.168.100.1  
+         nameservers:  
+            addresses: [192.168.100.1,8.8.8.8]  
