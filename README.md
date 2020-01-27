@@ -102,14 +102,4 @@ Abrir o arquivo com o editor NANO ou outro de sua preferencia.
 
 ### O arquivo deve ter as seguintes configurações:  
 
-network:
-   version: 2  
-   renderer: networkd  
-   ethernets:  
-      enp0s3:  
-         dhcp4: no  
-         dhcp6: no  
-         addresses: [192.168.100.2/24]  
-         gateway4: 192.168.100.1  
-         nameservers:  
-            addresses: [192.168.100.1,8.8.8.8]  
+![Netplan.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/Netplan.PNG?raw=true)  
