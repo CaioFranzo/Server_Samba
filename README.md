@@ -103,3 +103,10 @@ Abrir o arquivo com o editor NANO ou outro de sua preferencia.
 ### O arquivo deve ter as seguintes configurações:  
 
 ![Netplan.PNG](https://github.com/CaioFranzo/Server_Samba/blob/master/Netplan.PNG?raw=true)  
+
+### ~$ sudo netplan apply
+Testara as alterações.  
+
+Após isso ser servido estara pronto, agora basta em uma maquina Windows enrar no servidor prescionando Win+r e digitando no exucutar \\ip_servidor.  
+
+### E pronto seu servidor sampa estara pronto para uso. Espero ter ajudado :smile:
