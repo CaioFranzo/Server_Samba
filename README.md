@@ -109,4 +109,5 @@ Testara as alterações.
 
 Após isso ser servido estara pronto, agora basta em uma maquina Windows enrar no servidor prescionando Win+r e digitando no exucutar \\ip_servidor.  
 
+### ~$ sudo reboot
 ### E pronto seu servidor de arquivos estara pronto para uso. Espero ter ajudado :smile:
