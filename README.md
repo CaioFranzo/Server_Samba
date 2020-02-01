@@ -78,7 +78,7 @@ create mode = 0770
 directory mode = 0770  
 guest ok = no  
 read only = no  
-valid users = @merenda *Usar @ para grupos  
+valid users = @admin *Usar @ para grupos  
 
 [publico]  
 comment = Pasta de arquivos publicos  
